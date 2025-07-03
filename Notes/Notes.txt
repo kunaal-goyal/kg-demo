@@ -60,3 +60,11 @@ Make the changes you want in the local repository.
 Add the repository.
 Commit the repository.
 Then finally, push the local repostory to the remote repository.
+
+Branches: We make branches so that multiple developers can work on the same projects simultaneously.
+Branches commands:
+git branch - To check the branch.
+git branch -M New-Renamed_Branch_Name - To rename the current branch.
+git checkout Branch_name - To navigate to the other branch.
+git checkout -b New_Branch_Name - To create a new branch.
+git branch -d Branch_Name - TO delete a branch.

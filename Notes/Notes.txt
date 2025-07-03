@@ -1,0 +1,62 @@
+To copy a GtHub repository to our system, use this command:
+git clone Repository_link
+EXAMPLE:
+To clone our kg-demo repository, we use:
+git clone https://github.com/kunaal-goyal/kg-demo.git
+
+To change the directory from where we are in, we use cd (change directory) command.
+EXAMPLE:
+cd kg-demo
+
+To come out of a directory, we use the command: cd ..
+
+To make a new directory, we use the command: mkdir New_Directory_Name
+
+To view all the files in a directory, we use "ls" command.
+EXAMPLE:
+ls
+
+To view all the files (including hidden files), we use "ls -a" command.
+EXAMPLE:
+ls -a
+
+To know the status of the cloned repository, we use "git status" command.
+EXAMPLE:
+git status
+There are 4 types of output which we can get in terminal from this command:
+1. Untracked: New files that git doesn't yet track.
+2. Modified: Made changes to a file which was in the repository.
+3. Staged: File is ready to be committed.
+4. Unmodified: Unchanged file.
+
+Add and Commit:
+Add - Adds new or changed files in your working directory to the Git staging area.
+Command: git add file_name
+To add all the files at once, use command: git add .
+Commit - It is the record of change.
+Command: git commit -m "Some message"
+
+To upload the files to the repostory in GitHub, we use command: git push origin main
+In this command, git push is main command, origin means the main repository which was on GitHub which we cloned, and main is the name of the branch in which the file is being pushed.
+
+Init command: Used to create a new git repository.
+Command: git init
+
+Before adding the local repository to the GitHub remote repository, we use the command: git remote add origin link
+In this command, git remote repo means we are pushing the local repository to the remote repostory of GitHub. Take the link from GitHub by clicking on making new repository.
+
+To verify remote i.e. verify on which remote repository we are pushing the file to, use the command: git remote -v
+
+To verify the branch i.e. check the branch name on which we are pushing the repository to, use command: git branch
+
+To change the name of the branch, use command: git branch -M Branch_name
+
+Now use git push origin main
+
+Workflow - 
+First make a new repositoryin GitHub.
+Then clone it to the loca system.
+Make the changes you want in the local repository.
+Add the repository.
+Commit the repository.
+Then finally, push the local repostory to the remote repository.
